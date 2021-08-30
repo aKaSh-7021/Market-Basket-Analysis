@@ -75,17 +75,16 @@ The frequent itemsets and association rules are generated generally on the basis
   - One Hot Encoding of purchases made
 - Generating Association Rules
 - Refining the Rules
-
-
-  
   
 > ## Featured Notebooks/Analysis/Deliverables
 <details>
-           <summary>NoteBook 1</summary>
-           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
-         </details>
+<summary>The Bread Basket</summary>
+<p>[NoteBook1]()<br>[NoteBook2]()</p>
+</details>
  
-## Conclusion
+## Summary
+
+
 
 <div class="intercom-reaction-picker" align="center" dir="ltr">
     <div class="intercom-reaction-prompt">Did this answer your question?</div>
