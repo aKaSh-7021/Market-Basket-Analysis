@@ -11,9 +11,9 @@ Let's look into the functionality with an example. Customers who buy bread are m
 <p align=justify>
 This is how the market basket analysis work, we find relationships between items that go together within the business context. For the purposes of customer centricity, market basket analysis examines collections of items to identify affinities that are relevant within the different contexts of the customer touch points such as:
 
-- <p align=justify>Product Placement: Identifying products that may often be purchased together and arranging the placement of those items close by to encourage the purchaser to buy both items.
-- <p align=justify>Point-of-Sale: Companies may use the affinity grouping of multiple products as an indication that customers may be predisposed to buying certain sets of products at the same time. This enables the presentation of items for cross-selling, or may suggest that customers may be willing to buy more items when certain products are bundled together.
-- <p align=justify>Customer Retention: When customers contact a business to sever a relationship, a company representative may use market basket analysis to determine the right incentives to offer in order to retain the customer’s business.
+  - <p align=justify><b>Product Placement</b>: Identifying products that may often be purchased together and arranging the placement of those items close by to encourage the purchaser to buy both items.
+  - <p align=justify><b>Point-of-Sale</b>: Companies may use the affinity grouping of multiple products as an indication that customers may be predisposed to buying certain sets of products at the same time. This enables the presentation of items for cross-selling, or may suggest that customers may be willing to buy more items when certain products are bundled together.
+- <p align=justify><b>Customer Retention</b>: When customers contact a business to sever a relationship, a company representative may use market basket analysis to determine the right incentives to offer in order to retain the customer’s business.
 
 
 ## Approach:
@@ -29,8 +29,8 @@ The basic approach is to find answers to the following questions:
   
   
 
-<div class="intercom-reaction-picker" dir="ltr">
-    <div class="intercom-reaction-prompt"><p align=center>Did this answer your question?</div>
+<div class="intercom-reaction-picker" align="center" dir="ltr">
+    <div class="intercom-reaction-prompt">Did this answer your question?</div>
       <button class="intercom-reaction" data-reaction-text="disappointed" tabindex="0" aria-label="Disappointed Reaction">
         <span data-emoji="disappointed" title="Disappointed" align="center">😞</span>
       </button>
