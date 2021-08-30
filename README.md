@@ -40,23 +40,24 @@ Association rule mining is a data mining approach used to explore and interpret 
 <details>
 <summary><b>ML Algorithms</b></summary>
 <p align=justify>
-
-1. **Apriori Algorithm :** It allows us to generate all frequent itemsets by pruning all the supersets of an itemset which do not satisfy the minimum support threshold. It works on the basis of the Apriori principle which states that <em>"every subset of a frequent itemset must also be frequent"</em>.
+<b>Apriori Algorithm :</b> It allows us to generate all frequent itemsets by pruning all the supersets of an itemset which do not satisfy the minimum support threshold. It works on the basis of the Apriori principle which states that <em>"every subset of a frequent itemset must also be frequent"</em>.
   
   - generates all itemsets of length one & prune itemsets that do not satisfy the minimumn threshold creteria
   - generates all itemsets of length two & prune itemsets that do not satisfy the minimumn threshold creteria
   - continues the process with a unit increase in the length of itemsets at every iteration until the maximal frequent itemset is achieved
-  </p>
-- <p align=justify><b>ECLAT Algorithm :</b> It is a depth-first search based algorithm which uses vertical data format which makes it more memory efficient and faster than the Apriori algorithm as it does not have to scan the entire database repeatedly.
+</p>
+<p align=justify>
+<b>ECLAT Algorithm :</b> It is a depth-first search based algorithm which uses vertical data format which makes it more memory efficient and faster than the Apriori algorithm as it does not have to scan the entire database repeatedly.
   
   - stores for each item the transaction ids in a vertical dat format
   - determine the support of k-item sets by intersecting the list of transaction ids of two (k-1)-item sets from which it is generated
-  </p>
+</p>
   
 </details>  
 <details>
 <summary><b>Evaluation Metrices</b></summary>
-<p align=justify>The frequent itemsets and association rules are generated generally on the basis of three evaluation metrices i.e support, confidence and lift. Let X be an antecedent and Y be the corresponding consequent. Then,
+<p align=justify>
+The frequent itemsets and association rules are generated generally on the basis of three evaluation metrices i.e support, confidence and lift. Let X be an antecedent and Y be the corresponding consequent. Then,
   
   - `Support(X) = probability(X)`
   - `Confidence(X → Y) = support(X,Y)/support(X)`
