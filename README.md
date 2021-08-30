@@ -30,7 +30,7 @@ This is how the market basket analysis work, we find relationships between items
 <details>
 <summary><b>Association Rule Mining</b></summary>
 <p align=justify>
-&nbsp&nbsp&nbspAssociation rule mining is a data mining approach used to explore and interpret large transactional datasets to identify unique patterns and rules. Association rules identify frequent patterns and associations among every distinct set of transactions. This is generally carried out in two steps:
+Association rule mining is a data mining approach used to explore and interpret large transactional datasets to identify unique patterns and rules. Association rules identify frequent patterns and associations among every distinct set of transactions. This is generally carried out in two steps:
 
 - Itemset Generation
 - Rule Generation
@@ -39,17 +39,18 @@ This is how the market basket analysis work, we find relationships between items
   
 <details>
 <summary><b>ML Algorithms</b></summary>
+<p align=justify>
 
-- <p align=justify><b>Apriori Algorithm :</b> It allows us to generate all frequent itemsets by pruning all the supersets of an itemset which do not satisfy the minimum support threshold. It works on the basis of the Apriori principle which states that <em>"every subset of a frequent itemset must also be frequent"</em>.
+1. **Apriori Algorithm :** It allows us to generate all frequent itemsets by pruning all the supersets of an itemset which do not satisfy the minimum support threshold. It works on the basis of the Apriori principle which states that <em>"every subset of a frequent itemset must also be frequent"</em>.
   
   - generates all itemsets of length one & prune itemsets that do not satisfy the minimumn threshold creteria
   - generates all itemsets of length two & prune itemsets that do not satisfy the minimumn threshold creteria
-  - <p align=justify>continues the process with a unit increase in the length of itemsets at every iteration until the maximal frequent itemset is achieved
+  - continues the process with a unit increase in the length of itemsets at every iteration until the maximal frequent itemset is achieved
   </p>
 - <p align=justify><b>ECLAT Algorithm :</b> It is a depth-first search based algorithm which uses vertical data format which makes it more memory efficient and faster than the Apriori algorithm as it does not have to scan the entire database repeatedly.
   
-  - stores for each item the transaction ids
-  - determine the support of k-item sets by intersecting the list of tids of two (k-1)-item sets from which it is generated
+  - stores for each item the transaction ids in a vertical dat format
+  - determine the support of k-item sets by intersecting the list of transaction ids of two (k-1)-item sets from which it is generated
   </p>
   
 </details>  
