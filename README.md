@@ -73,8 +73,8 @@ The frequent itemsets and association rules are generated generally on the basis
   - Data Cleaning
   - Transforming data to one transaction per row
   - One Hot Encoding of purchases made
-- Generating Association Rules
-- Refining the Rules
+- Association Rules Generation
+
   
 > ## Featured Notebooks/Analysis/Deliverables
 <details>
