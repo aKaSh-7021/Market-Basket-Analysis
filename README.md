@@ -83,8 +83,21 @@ The frequent itemsets and association rules are generated generally on the basis
 </details>
  
 ## Summary
+**Insights:**
+- Coffee is the bestseller of this bakery and it shows association with 8 other items.
+- Over 11% coffee lovers also buy cake along with while almost 10% of them buy pastry along with it.
+- Over 16% of tea consumers also buy cakes and over 22% cake lovers also buy tea
+- Among the pastry lovers, over 33% of them also buy bread, while nearly 9% of those who buy pastry also buy bread. 
 
+**Business Strategy:**
 
+There are a couple of strategies that the bakery can adopt if is yet to use, to increase its sales considering the associations we have seen between coffee and its 8 partners.
+
+- Promotional discounts on these items can entice customers to buy coffee or the other way round.
+- Arranging placements of these items close to coffee ordering counter can be a good strategy to tempt customers into buying them.
+<!-- - How about some recipes like a coffee cake or coffee pastry? Will that entice coffe and cake/pastry lovers?? -->
+<br>
+<br>
 
 <div class="intercom-reaction-picker" align="center" dir="ltr">
     <div class="intercom-reaction-prompt">Did this answer your question?</div>
