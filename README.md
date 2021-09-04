@@ -74,7 +74,7 @@ The frequent itemsets and association rules are generated generally on the basis
   - Transforming data to one transaction per row
   - One Hot Encoding of purchases made
 - Association Rules Generation
-
+- Refining the Rules
   
 > ## Featured Notebooks/Analysis/Deliverables
 <details>
