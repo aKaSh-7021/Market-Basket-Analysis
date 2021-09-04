@@ -77,7 +77,9 @@ The frequent itemsets and association rules are generated generally on the basis
 > ## Featured Notebooks/Analysis/Deliverables
 <details>
 <summary>The Bread Basket</summary>
-<p>[NoteBook1]()<br>[NoteBook2]()</p>
+
+  [NoteBook](https://www.kaggle.com/akashdeepkuila/market-basket-analysis)
+
 </details>
  
 ## Summary
