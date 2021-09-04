@@ -69,11 +69,9 @@ The frequent itemsets and association rules are generated generally on the basis
 - Importing Necessary Dependencies
 - Loading and Reading the Datasets
 - Data Exploration and Visualization
-- Data Preprocessing
-  - Data Cleaning
-  - Transforming data to one transaction per row
-  - One Hot Encoding of purchases made
 - Association Rules Generation
+  - Data Preprocessing
+  - Rules Visualization
 - Refining the Rules
   
 > ## Featured Notebooks/Analysis/Deliverables
